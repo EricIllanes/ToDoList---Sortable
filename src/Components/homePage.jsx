@@ -5,6 +5,7 @@ import ToDoList from "./toDoList";
 const HomePage = () => {
 
   const dataUser = JSON.parse(localStorage.getItem("profileData"));
+  
   const [tareas, setTareas] = useState([]);
 
   function cleanCompletedTask() {
